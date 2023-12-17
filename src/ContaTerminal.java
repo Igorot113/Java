@@ -11,13 +11,12 @@ public class ContaTerminal {
         String CPF = scan.nextLine();
         System.out.println("Digite aqui seu email: ");
         String Email = scan.nextLine();
+        System.out.println("Digite aqui a senha da conta: ");
+        int senha = scan.nextInt();
 
         System.out.println("Sua conta foi criada!");
         System.out.println("Segue abaixo os dados da sua conta: ");
-        System.out.println("Nome da conta: " + nome);
-        System.out.println("CPF: " + CPF);
-        System.out.println("Email da conta: " + Email);
-        System.out.println("Conta criada com sucesso!");
+        System.out.println(nome + " " + CPF + " " +  Email);
         
 
 
