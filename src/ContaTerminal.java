@@ -17,6 +17,7 @@ public class ContaTerminal {
         System.out.println("Nome da conta: " + nome);
         System.out.println("CPF: " + CPF);
         System.out.println("Email da conta: " + Email);
+        System.out.println("Conta criada com sucesso!");
         
 
 
